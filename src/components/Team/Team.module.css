@@ -1,0 +1,50 @@
+.content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.team {
+    border-right: 3px solid #fff;
+    padding: 10px;
+}
+
+.success {
+    margin: 30px auto;
+    color: #155724;
+    text-align: center;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.danger {
+    margin: 30px auto;
+    color: #721c24;
+    background-color: #f8d7da;
+    width: 400px;
+    text-align: center;
+    border: 1px solid #f5c6cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.point {
+    margin: 30px auto;
+    background-color: #155724;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+}

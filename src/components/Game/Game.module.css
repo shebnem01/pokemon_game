@@ -1,0 +1,25 @@
+.game-content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.play {
+    width: 240px;
+    height: 55px;
+    background-color: rebeccapurple;
+    color: #fff;
+    margin: 40px auto;
+    font-size: 30px;
+    border-radius: 40px;
+    display: block;
+    transition: .3s ease;
+    cursor: pointer;
+    border: 1px solid rebeccapurple;
+}
+
+.play:hover {
+    transform: translateY(-3px);
+    color: #fff;
+}
